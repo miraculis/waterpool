@@ -51,4 +51,6 @@ public class WaterpoolTest extends TestCase {
         assertEquals(4, (int)c.compute(new Integer[]{3, 2, 0, 3, 2, 1, 2, 3}));
     }
 
+    public void testMovingMax() {assertEquals(1, (int)c.compute(new Integer[]{3,2,0,2,1,2,3}));}
+
 }
